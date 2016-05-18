@@ -63,5 +63,5 @@ while True:
 
 print ("\n	You answered %d correct out of %d." % (right, count)), # Show final score 
 if right == count: 						       # Recognize perfect score 
-	print("WOW. Awesome!")
+	print("WOW. Awesome!!!")
 
