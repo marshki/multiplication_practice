@@ -73,5 +73,5 @@ while True:
 # Show final score 
 print ("\n	You answered %d correct out of %d." % (right, count)), 
 if right == count: 
-	print("Perfect!")
+	print("WOW. Awesome!")
 
