@@ -11,6 +11,9 @@ To begin practice, press Enter.
 Press 'Q' at any time to quit the game.
 When prompted, type in your answer and press 'Enter'. 
 
+Screenshot: 
+
+![Alt text](https://github.com/marshki/multiplication_practice/blob/master/multiply.png?raw+true "Multiply")
 
 ## To do: 
 
