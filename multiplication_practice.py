@@ -19,10 +19,12 @@ This program allows you to practice multiplication facts from 1-12.
 
 You can answer each question by typing in your response and pressing 
 the Enter key. To receive credit, you'll need to answer each 
-question correctly in %d seconds. 
+question correctly within %d seconds. 
 
 Press the 'q' key at anytime to quit.
 """ % (time_limit,)) 
+
+# Guts of the program 
 
 input("Are you ready to play? Press the Enter key to begin. ")
 print()
@@ -30,21 +32,16 @@ print()
 while True: 
 	count += 1
 
-# Generate two random factors (a, b), each between 1 and 12, inclusive
-# Multiply the two factors and assign the product (c)  
-	a = random.randint(1,12) 
-	b = random.randint(1,12) 
-	c =  a * b
+	a = random.randint(1,12) # Generate two (a,b) pseudo-random factors 
+	b = random.randint(1,12) # between 1 and 12, inclusive 
+	c =  a * b		 # Multiply the two factors, assign the product (c)	
 
-# Assign problem, correct answer 
-	problem = "%d x %d = " % (a, b)
-	correct_answer = c 
+	problem = "%d x %d = " % (a, b) # Assign problem
+	correct_answer = c 		# Assign correct answer
 	
-# Track time 
-# Prompt for user input 
-	start_time = mktime(localtime())
-	user_answer = input("%3d.	" % count + problem)
-	end_time = mktime(localtime())
+	start_time = mktime(localtime())			# Start timer  
+	user_answer = input("%3d.	" % count + problem)    # Wait for user input 
+	end_time = mktime(localtime())				# End timer 
 
 # End loop when user wants to quit 
 	if user_answer.lower() == 'q':
