@@ -11,6 +11,13 @@ To begin practice, press Enter.
 Press 'Q' at any time to quit the game.
 When prompted, type in your answer and press 'Enter'. 
 
+
+## To do: 
+
+* Use functions for repetitve tasks 
+* Add second mode to allow for practicing a single family of facts 
+* GUI ? 
+
 ## History 
 
 First commit May 17, 2016 @10:27 ET. 
