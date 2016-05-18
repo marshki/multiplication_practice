@@ -12,7 +12,6 @@ time_limit = 10
 count, right= 0, 0 
 
 # Welcome screen 
-
 print("""
 ********************** Multiplication Tables **********************
 This program allows you to practice multiplication facts from 1-12. 
@@ -25,8 +24,7 @@ Press the 'q' key at anytime to quit.
 """ % (time_limit,)) 
 
 # Guts of the program 
-
-input("Are you ready to play? Press the Enter key to begin. ")
+input("Are you ready to play? Press the Enter key to begin. ") # Ask user to start program 
 print()
 
 while True: 
@@ -43,32 +41,27 @@ while True:
 	user_answer = input("%3d.	" % count + problem)    # Wait for user input 
 	end_time = mktime(localtime())				# End timer 
 
-# End loop when user wants to quit 
-	if user_answer.lower() == 'q':
-		count -= 1 
+	if user_answer.lower() == 'q': # End loop when user wants to quit 
+		count -= 1 	       # Reduce count by one if user exits program 
 		break 
 
-# If too long, answer is marked as wrong 
-	if end_time - start_time > time_limit: 
-		print ("	You took too long!")
-		continue 
-
-# Compare user input with correct answer 
-# Assign point for correct answer 
-# If answer is not an integer, answer is considered incorrect 
+	if end_time - start_time > time_limit: # If too long, answer is marked as wrong 
+		print ("You took too long!")
+		continue
+ 
 	try: 
-		if int(user_answer) == correct_answer: 
-			right +=1 
+		if int(user_answer) == correct_answer: # Compare user input with correct answer 
+			right +=1		       # Assign point for correct answer  
 			print("		Right-O!!!")
 		else: 
 			print("		Sorry, that\'s not right.")
 			print("		%s%d" % (problem, correct_answer))
 
-	except: 
-		print("		%s?	%s%d" % (user_answer, problem, correct_answer))
+	except:						# Non integer answer are considered incorrect  
+		print("		%s?	%s%d" % (user_answer, problem, correct_answer)) 
 
-# Show final score 
-print ("\n	You answered %d correct out of %d." % (right, count)), 
-if right == count: 
+
+print ("\n	You answered %d correct out of %d." % (right, count)), # Show final score 
+if right == count: 						       # Recognize perfect score 
 	print("WOW. Awesome!")
 
