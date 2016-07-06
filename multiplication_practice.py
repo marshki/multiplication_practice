@@ -1,5 +1,6 @@
 #!/bin/py
 #Python 3.4.3
+# Made with <3 for RNK
 
 # Import Python libraries 
 import random	# for pseudo-random number generation 
@@ -47,6 +48,7 @@ while True:
 
 	if end_time - start_time > time_limit: # If too long, answer is marked as wrong 
 		print ("You took too long!")
+		print("         %s%d" % (problem, correct_answer))	# Provide correct answer 
 		continue
  
 	try: 
@@ -55,7 +57,7 @@ while True:
 			print("		Right-O!!!")
 		else: 
 			print("		Sorry, that\'s not right.")
-			print("		%s%d" % (problem, correct_answer))
+			print("		%s%d" % (problem, correct_answer)) # Provide correct answer 
 
 	except:						# Non integer answer are considered incorrect  
 		print("		%s?	%s%d" % (user_answer, problem, correct_answer)) 
