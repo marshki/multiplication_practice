@@ -1,5 +1,5 @@
 #!/bin/py
-#Python 3.4.3
+# Python 3.4.3
 # Made with <3 for RNK
 
 # Import Python libraries 
@@ -59,11 +59,11 @@ while True:
 			print("		Sorry, that\'s not right.")
 			print("		%s%d" % (problem, correct_answer)) # Provide correct answer 
 
-	except:						# Non integer answer are considered incorrect  
+	except:						# Non-integer answers are considered incorrect  
 		print("		%s?	%s%d" % (user_answer, problem, correct_answer)) 
 
 
 print ("\n	You answered %d correct out of %d." % (right, count)), # Show final score 
-if right == count: 						       # Recognize perfect score 
+if right == count: 						       # Recognize a perfect score 
 	print("WOW. Awesome!!!")
 
