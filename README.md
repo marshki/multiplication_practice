@@ -1,7 +1,7 @@
 # Multiplication practice 
 
 Python 3.4.3 text-based program for practicing multiplication tables from 1-12. 
-Program works as is, but we are in the process adding features, etc. 
+Program works as is, but we are in the process of adding features, etc. (07.08.16)
 ## Usage 
 
 Program can be run directly from a shell with: 
