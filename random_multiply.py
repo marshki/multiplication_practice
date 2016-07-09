@@ -17,7 +17,7 @@ def random_multiply():
 	Press the 'q' key at anytime to quit.
 	''' % (time_limit,))
 
-	input("	Are you ready to play? For a good time press then Enter key. ") # Ask user to start program 
+	input("	Are you ready to play? For a GOOD time press then Enter key. ") # Ask user to start program 
 	print()
 	
 	while True: 
@@ -38,7 +38,7 @@ def random_multiply():
 			count -= 1		# Reduce count by one if the user exits program 
 			break 
 		
-		if end_time - start_time > time_limit: # If too long, answer is marked as wrong 
+		if end_time - start_time > time_limit: 				# If too long, answer is marked as wrong 
 			print("			You took too long!")
 			print("		%s%d" % (problem, correct_answer))	# Provide correct answer
 			continue 
@@ -55,7 +55,12 @@ def random_multiply():
 			print("			%s?" % (user_answer,)) 
 			print("		%s%d" % (problem, correct_answer))
 		
-	print("\n	You answered %d correct out of %d." % (right, count)), # Show final score 
+	print("\n	You answered %d correct out of %d." % (right, count)), # Show final score
+
+	percent = round(right/count * 100.0) if count else 0		       # Calculate percent correct  
+	
+	print("	That\'s %d%%." % (percent,)),
+	
 	if right == count and right >= 1: 				       # Recognize a perfect score 
 		print("	WOW. Awesome!!!")
 ()
