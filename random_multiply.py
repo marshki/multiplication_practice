@@ -61,4 +61,3 @@ def random_multiply():
 ()
 
 random_multiply()
-random_multiply()
