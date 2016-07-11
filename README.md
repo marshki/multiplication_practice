@@ -13,7 +13,9 @@ When prompted, type in your answer and press 'Enter'.
 
 Screenshot: 
 
-![Alt text](https://github.com/marshki/multiplication_practice/blob/master/multiply.png?raw+true "Multiply")
+![Alt text](https://github.com/marshki/multiplication_practice/blob/master/menu.png?raw+true "Menu")
+
+![Alt text](https://github.com/marshki/multiplication_practice/blob/master/random.png?raw+true "random_function")
 
 ## To do: 
 * ~~Add menu~~ 
