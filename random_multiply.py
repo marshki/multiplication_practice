@@ -3,7 +3,8 @@ import random
 from time import localtime, mktime 
 
 def random_multiply():
-	''' Blah Blah Blah  
+	''' Generate random multiplication problems for user to solve within allocated time. 
+	Correct answers are awarded a single point. 
 	'''
 	# Set time limit 
 	time_limit= 10 

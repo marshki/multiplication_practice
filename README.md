@@ -17,7 +17,7 @@ Screenshot:
 
 ## To do: 
 * ~~Add menu~~ 
-* Use functions for repetitve tasks 
+* ~~Use functions for repetitve tasks~~ 
 * Add second mode to allow for practicing a single family of facts 
 * GUI ? 
 
