@@ -81,18 +81,17 @@ def random_multiply():
 		except:						# Non-integer answers are considered incorrect 
 			print("			%s?" % (user_answer,)) 
 			print("		%s%d" % (problem, correct_answer))
-		
-	print("\n	You answered %d correct out of %d." % (right, count)), # Show final score
-
-	percent = round(right/count * 100.0) if count else 0		       # Calculate percent correct  
 	
-	print("	That\'s %d%%." % (percent,)),
+	percent = round(right/count * 100.0) if count else 0		       # Calculate percent correct 		
+	
+	print("\n	You answered %d correct out of %d." % (right, count)), # Show final score
+	print("	That\'s %d%%." % (percent,)),				       # Show percent score 
 	
 	if right == count and right >= 1: 				       # Recognize a perfect score 
 		print("	WOW. Awesome!!!")
 ()
 
-# Program 
+# Guts of program 
 loop = 1
 choice = 0
 while loop == 1:
