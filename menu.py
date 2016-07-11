@@ -3,13 +3,10 @@
 # Made with <3 for RNK 
 
 # Import Python libraries 
-import random				# for 
-from time import localtime, mktime
+import random				# for pseudo-random number generation 
+from time import localtime, mktime	# for time tracker 
 
-#!/bin/bash 
-import random
-from time import localtime, mktime 
-
+# Define functions 
 def menu():
         """ Print menu options and prompt user for input 
         """
