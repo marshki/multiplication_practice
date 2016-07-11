@@ -25,7 +25,7 @@ def menu():
         (3) I want to quit...for now. 
 
         """)
-        return input("  Please make your choice (1,2,3) then press Enter: ")
+        return input("  	Please make your choice (1,2,3) then press Enter: ")
 ()
 
 def random_multiply():
@@ -99,16 +99,16 @@ while loop == 1:
         choice = menu()
         if choice == '1':
                 print()
-                print(" OK! Let\'s practice random multiplication facts.")
+                print(" 	OK! Let\'s practice random multiplication facts.")
                 random_multiply()
         elif choice == '2':
                 print()
-                print(" Cool! Let\'s practice a single family of multiplication facts.")
+                print(" 	Cool! Let\'s practice a single family of multiplication facts.")
         elif choice == '3':
                 print()
-                print(" Y\'all come back now, ya hear?")
+                print(" 	Y\'all come back now, ya hear?")
                 loop = 0
         else:
                 print()
-                print(" *** Sorry, you must select a valid option (1,2,3), then press Enter. Try again. ***")
+                print(" 	*** Sorry, you must select a valid option (1,2,3), then press Enter. Try again. ***")
 
