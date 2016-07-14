@@ -1,13 +1,14 @@
-def test():
-        try:
-                choice = int(input("Enter integer btwn 1-12: "))
-                if not (1 <= choice <= 12):
-                        print('Not in range!')
-        except ValueError:
-                print("Not an integer")
-        else:
-                print("Your choice is", choice)
-
-test()
-test()
-test()
+#!/bin/py
+while True: 
+	try:
+		number = int(input('Pick a number in range 1-12 >>> '))
+	except ValueError:
+		print("That\'s not an int!")
+		continue 
+	else: 
+		if not (1<= number <=12): 
+			print('Not in range!')
+			continue 
+		else: 
+			print('You selected:',number)
+			break 
