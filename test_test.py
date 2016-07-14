@@ -1,4 +1,5 @@
 #!/bin/py
+"""
 number = 0 
 while True: 
 	try:
@@ -13,3 +14,14 @@ while True:
 		else: 
 			print("You selected:",number)
 			break 
+"""
+
+while True:
+    try:
+        number = int(input("Enter a whole number between 1 and 12 >>> "))
+        if 1 <= number <= 12:
+            print("You selected:", number)
+            break
+        print("Need a whole number in range 1-12 >>> ")
+    except ValueError:
+            print("Invlaid input, please try again >>> ")
