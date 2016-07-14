@@ -18,6 +18,8 @@ Screenshot:
 
 ![Alt text](https://github.com/marshki/multiplication_practice/blob/master/random.png?raw+true "random_function")
 
+![Alt_text](https://github.com/marshki/multiplication_practice/blob/master/single.png?raw+true "single_function")
+
 ## To do: 
 * ~~Add menu~~ 
 * ~~Use functions for repetitve tasks~~ 
