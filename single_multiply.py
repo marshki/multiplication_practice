@@ -23,14 +23,24 @@ def single_multiply():
 	input("	Are you ready to play? For a GOOD time press Enter key. ") # Ask user to start program 
 	print()
 
-	fact_family = input("	What fact family do you want to practice? Type a number between 1 and 12, then press Enter: ")
-	print(fact_family)
-	
+	while True: 							   
+		try: 
+			fact_family = int(input("	Which fact family (1-12) would you like to practice?: "))
+			if 1<= fact_family <= 12:			   # Test user input for validity
+				# return fact_family			   # i.e. integer and in range 1-12
+				break
+			print() 
+			print("	*** Sorry, please enter an integer in the range 1-12, then press Enter. Try again. *** ")
+			print()
+		except ValueError:
+			print() 
+			print("	*** Sorry, please enter an integer in the range 1-12, then press Enter. Try again. *** ")
+			print()
 	while True: 
 		count += 1
 
-		a = random.randint(1,12)	# Generate two (a,b) pseudo-random numbers
-		b = random.randint(1,12)	# between 1 and 12, inclusive 
+		a = fact_family			# a = user's choice 
+		b = random.randint(1,12)	# Generate random number between 1 and 12, inclusive 
 		c = a * b 			# multiply the two numbers, assign the product (c)
 
 		problem = "%d x %d = " % (a, b) 	# Assign problem 
