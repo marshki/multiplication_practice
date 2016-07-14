@@ -42,7 +42,7 @@ while True:
 	user_answer = input("%3d.	" % count + problem)    # Wait for user input 
 	end_time = mktime(localtime())				# End timer 
 
-	if user_answer.lower() == 'q': # End loop when user wants to quit 
+	if user_answer.lower() == 'q': # End loop when user wants to quit by pressing Q or q 
 		count -= 1 	       # Reduce count by one if user exits program 
 		break 
 
