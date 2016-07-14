@@ -1,15 +1,16 @@
 # Multiplication practice 
 
 Python 3.4.3 text-based program for practicing multiplication tables from 1-12. 
-Program works as is, but we are in the process of adding features, etc. (07.08.16)
+Users can practice either: 
+random multiplication facts _or_ random multiplication facts for a single family of facts. 
 ## Usage 
 
 Program can be run directly from a shell with: 
-`python3 multiplication_practice.py`
+`python3 menu.py`
 
-To begin practice, press Enter. 
+Select which mode you would like to run, then follow on screen directions for gameplay. 
 Press 'Q' at any time to quit the game.
-When prompted, type in your answer and press 'Enter'. 
+
 
 Screenshot: 
 
@@ -20,8 +21,8 @@ Screenshot:
 ## To do: 
 * ~~Add menu~~ 
 * ~~Use functions for repetitve tasks~~ 
-* Add second mode to allow for practicing a single family of facts 
-* GUI ? 
+* ~~Add second mode to allow for practicing a single family of facts~~ 
+* GUI 
 
 ## History 
 
