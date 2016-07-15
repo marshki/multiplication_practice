@@ -18,9 +18,9 @@ Screenshots:
 
 ![Alt text](https://github.com/marshki/multiplication_practice/blob/master/menu.png?raw+true "Menu")
 
-![Alt text](https://github.com/marshki/multiplication_practice/blob/master/random.png?raw+true "random_function")
+![Alt text](https://github.com/marshki/multiplication_practice/blob/master/random_facts.png?raw+true "random_function")
 
-![Alt_text](https://github.com/marshki/multiplication_practice/blob/master/single.png?raw+true "single_function")
+![Alt_text](https://github.com/marshki/multiplication_practice/blob/master/single_facts.png?raw+true "single_function")
 
 ## To do: 
 * ~~Add menu~~ 
