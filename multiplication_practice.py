@@ -44,7 +44,7 @@ def random_multiply():
 	Press the 'q' key at anytime to quit.
 	''' % (time_limit,))
 
-	input("	Are you ready to play? For a GOOD time press Enter key. ") # Ask user to start program 
+	input("	Are you ready to play? For a GOOD time press the Enter key. ") # Ask user to start program 
 	print()
 	
 	while True: 
@@ -108,7 +108,7 @@ def single_multiply():
 	Press the 'q' key at anytime to quit.
 	''' % (time_limit,))
 
-	input("	Are you ready to play? For a GOOD time press Enter key. ") # Ask user to start program 
+	input("	Are you ready to play? For a GOOD time press the Enter key. ") # Ask user to start program 
 	print()
 
 	while True: 							   

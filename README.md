@@ -14,7 +14,7 @@ Select which mode you would like to run, then follow onscreen directions for gam
 Once a mode is selected, press 'Q' at any time to quit the game.
 
 
-Screenshot: 
+Screenshots: 
 
 ![Alt text](https://github.com/marshki/multiplication_practice/blob/master/menu.png?raw+true "Menu")
 
@@ -28,6 +28,7 @@ Screenshot:
 * ~~Add second mode to allow for practicing a single family of facts~~ 
 * ADD GUI, will attempt ncurses implementation. 
 * Improve code! 
+
 ## History 
 
 First commit May 17, 2016 @10:27 ET. 
