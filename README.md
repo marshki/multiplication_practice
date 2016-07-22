@@ -26,8 +26,9 @@ Screenshots:
 * ~~Add menu~~ 
 * ~~Use functions for repetitve tasks~~ 
 * ~~Add second mode to allow for practicing a single family of facts~~ 
-* ADD GUI, will attempt ncurses implementation. 
-* Improve code! 
+* ADD GUI (Cross-platform for desktops at this time. Eventually mobile ???
+* Improve code! (There's always room for improvement. Comments, etc. are welcome. 
+
 
 ## History 
 
