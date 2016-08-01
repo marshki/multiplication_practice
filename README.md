@@ -23,12 +23,14 @@ Screenshots:
 ![Alt_text](https://github.com/marshki/multiplication_practice/blob/master/single_facts.png?raw+true "single_function")
 
 ## To do: 
-* ~~Add menu~~ 
-* ~~Use functions for repetitve tasks~~ 
-* ~~Add second mode to allow for practicing a single family of facts~~ 
-* ADD GUI (Cross-platform for desktops at this time. Eventually mobile ???
-* Improve code! (There's always room for improvement. Comments, etc. are welcome. 
+-[] Improve code! (Particularly using functions for freq. occurring actions, and general efficiency.
+-[] Randomize user feedback. 
+-[] Show countdown timer to user 
+-[] Handle user inaction. 
+-[] Countdown timer? 
+-[] ADD GUI (Cross-platform for desktops at this time). Eventually mobile ???
 
+~~Comments, etc. are welcome.~~ 
 
 ## History 
 
