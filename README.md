@@ -23,19 +23,19 @@ Screenshots:
 ![Alt_text](https://github.com/marshki/multiplication_practice/blob/master/single_facts.png?raw+true "single_function")
 
 ## To do: 
--[] Improve code! (Particularly using functions for freq. occurring actions, and general efficiency.
+- [ ] Improve code! (Particularly using functions for freq. occurring actions, and general efficiency.
 
-- [] Randomize user feedback. 
+- [ ] Randomize user feedback. 
 
-- [] Show countdown timer to user 
+- [ ] Show countdown timer to user 
 
-- [] Handle user inaction. 
+- [ ] Handle user inaction. 
 
-- [] Countdown timer? 
+- [ ] Countdown timer? 
 
-- [] ADD GUI (Cross-platform for desktops at this time). Eventually mobile ???
+- [ ] ADD GUI (Cross-platform for desktops at this time). Eventually mobile ???
 
-~Comments, etc. are welcome.~
+_Comments, etc. are welcome._
 
 ## History 
 
