@@ -2,9 +2,11 @@
 
 Python 3.4.3 text-based program for practicing multiplication tables from 1-12. 
 Users can practice either: 
-random multiplication facts _or_ random multiplication facts for a single family of facts. 
+* random multiplication facts _or_ 
+* random multiplication facts for a single family of facts. 
 
-This project is an on-going one (07.14.2016).  
+This project is an on-going one (08.02.2016).  
+
 ## Usage 
 
 Program can be run directly from a shell with: 
@@ -29,7 +31,7 @@ Screenshots:
 
 - [ ] Show countdown timer to user.  
 
-- [ ] Handle user inaction. 
+- [ ] Handle user inaction (i.e. idle hands). 
 
 - [ ] Develop GUI (Cross-platform for desktops at this time). Eventually web app? 
 
